@@ -1,0 +1,69 @@
+.mock11cont{
+    width:auto;
+    height:711px;
+    border: 1px solid rgb(5, 5, 5);
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+  }
+
+.mock11main{
+   width:50%;
+   background: #4b6cb7;  
+   background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+   background: linear-gradient(to right, #182848, #4b6cb7); 
+   background-size: 100% 100%;
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 8%;
+   color:white;
+   padding: 10px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mock11main:hover{
+    box-shadow: rgba(247, 84, 3, 0.925) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color:#00021c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 250px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+}
+
+a:hover{
+  color:crimson;
+}
+
+input[type=submit]:hover {
+  background-color: #f40b36;
+}
+input[type=text]:hover {
+    border:1px solid #fe259c;
+}
+input[type=text]:focus {
+    border:1px solid #784360;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    background-color: #ccc;
+    padding:10px;
+}
